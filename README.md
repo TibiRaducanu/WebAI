@@ -13,3 +13,5 @@ Nim game rules:
    Source: https://en.wikipedia.org/wiki/Nim
    
  - In this game variation the player that takes the last stone loses.
+ 
+ ![Alt text](WebAI/IMG/NimWeb.png?raw=true "Game Sample")
