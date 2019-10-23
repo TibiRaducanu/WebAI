@@ -1,0 +1,280 @@
+@media screen and (min-width: 900px) {
+	* {
+		box-sizing: border-box;
+	}
+	 
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		font-size: 62.5%;
+	}
+	 
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		font-size: 1.4rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		background-image: url(../img/space.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	 
+	.hidden{
+		display: none;
+	}
+	 
+	.ellipse-container {
+		width: 50rem;
+		height: 50rem;
+		border-radius: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 17rem;
+	}
+	 
+	.ellipse-container .greeting{
+		position: relative;
+		top: 18rem;
+		left: 2rem;
+		margin: 0 auto;
+		text-transform: uppercase;
+		letter-spacing: 4rem;
+		height: 30rem;
+		font-size: 10rem;
+		font-weight: 400;
+		color: #F4F4F4;
+		opacity: 0.5;
+	}
+	 
+	.ellipse {
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		border-style: solid;
+	}
+	 
+	/* white ellipse border*/
+	.ellipse__outer--thin {
+		width: 100%;
+		height: 100%;
+		border-width: 0.125rem;
+		border-color: #F4F4F4;
+		animation: ellipseOrbit 15s ease-in-out infinite;
+	}
+	 
+	/* blue ellipse border*/
+	.ellipse__outer--thick {
+		width: 100%;
+		height: 100%;
+		border-color: #043c6c transparent;
+		opacity: 0.8;
+		border-width: 0.2rem;
+		transform: rotate(-45deg);
+		animation: ellipseRotate 15s ease-in-out infinite;
+	}
+	 
+	.ellipse__orbit {
+		width: 2.5rem;
+		height: 2.5rem;
+		border-width: 0.2rem;
+		border-color: #043c6c;
+		top: 5.5rem;
+		right: 6.75rem;
+	}
+	 
+	/* orbit center */
+	.ellipse__orbit:before {
+		content: "";
+		width:0.7rem;
+		height: 0.7rem;
+		border-radius: 50%;
+		display: inline-block;
+		background-color: #4ADDAC;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: 1rem;
+		position: absolute;
+		transform: translateY(-50%);
+	}
+	 
+	@keyframes ellipseRotate {
+		0% {
+			transform: rotate(-45deg);
+		}
+		100% {
+			transform: rotate(-405deg);
+		}
+	}
+	 
+	@keyframes ellipseOrbit {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}
+ 
+@media (max-width: 900px) {
+	* {
+		box-sizing: border-box;
+	}
+	 
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		font-size: 62.5%;
+	}
+	 
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		font-size: 1.4rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		background-image: url(../img/space.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	 
+	.hidden{
+		display: none;
+	}
+	 
+	.ellipse-container {
+		width: 50rem;
+		height: 50rem;
+		border-radius: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 17rem;
+	}
+	 
+	.ellipse-container .greeting{
+		position: relative;
+		top: 18rem;
+		left: 2rem;
+		margin: 0 auto;
+		text-transform: uppercase;
+		letter-spacing: 4rem;
+		height: 30rem;
+		font-size: 10rem;
+		font-weight: 400;
+		color: #F4F4F4;
+		opacity: 0.5;
+	}
+	 
+	.ellipse {
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		border-style: solid;
+	}
+	 
+	/* white ellipse border*/
+	.ellipse__outer--thin {
+		width: 100%;
+		height: 100%;
+		border-width: 0.125rem;
+		border-color: #F4F4F4;
+		animation: ellipseOrbit 15s ease-in-out infinite;
+	}
+	 
+	/* blue ellipse border*/
+	.ellipse__outer--thick {
+		width: 100%;
+		height: 100%;
+		border-color: #043c6c transparent;
+		opacity: 0.8;
+		border-width: 0.2rem;
+		transform: rotate(-45deg);
+		animation: ellipseRotate 15s ease-in-out infinite;
+	}
+	 
+	.ellipse__orbit {
+		width: 2.5rem;
+		height: 2.5rem;
+		border-width: 0.2rem;
+		border-color: #043c6c;
+		top: 5.5rem;
+		right: 6.75rem;
+	}
+	 
+	/* orbit center */
+	.ellipse__orbit:before {
+		content: "";
+		width:0.7rem;
+		height: 0.7rem;
+		border-radius: 50%;
+		display: inline-block;
+		background-color: #4ADDAC;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: 1rem;
+		position: absolute;
+		transform: translateY(-50%);
+	}
+	 
+	@keyframes ellipseRotate {
+		0% {
+			transform: rotate(-45deg);
+		}
+		100% {
+			transform: rotate(-405deg);
+		}
+	}
+	 
+	@keyframes ellipseOrbit {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+ 
+	.ellipse-container {
+		display: none;
+		width: 80%;
+	}
+ 
+	.ellipse-text {
+		display: block;
+		position: absolute;
+		width:70%;
+		left: 15%;
+		top: 45%;
+		text-align: center;
+		font-family: 'Press Start 2P', cursive;
+		color: #fff;
+		font-size: 5rem;
+		animation: textRotate 20s ease-in-out infinite;
+	}
+ 
+	@keyframes textRotate {
+		0% {
+			color: white;
+			transform: rotate(0deg);
+		}
+		50% {
+			color: transparent;
+			transform: rotate(360deg);
+		}
+		100% {
+			color: white;
+			transform: rotate(0deg);
+		}
+	}
+}

@@ -1,0 +1,346 @@
+@media screen and (min-width:1400px){
+	* {
+		box-sizing: border-box;
+	}
+	 
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		font-size: 62.5%;
+	}
+	 
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		font-size: 1.4rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		background-image: url(../img/wood.jpeg);
+		background-position: center;
+		background-size: cover;
+	}
+	 
+	.hidden{
+		display: none;
+	}
+
+	article {
+		width: 70%;
+		margin: auto;
+		margin-top: 4rem;
+	}
+
+	h1 {
+		font-size: 2.9rem;
+		font-family: sans-serif;
+		margin: 0rem;
+	}
+
+	p {
+		font-size: 2.2rem;	
+		font-family: sans-serif;
+	}
+
+	.image {
+		float: left;
+		width: 60%;
+		margin-bottom: 1rem;
+	}
+
+	.image img {
+		width: 90%;
+		float: left;
+	}
+
+	.text {
+		width: 60%;
+		float: left;
+		font-size: 2rem;
+	}
+
+	.text a {
+		text-decoration: none;
+		color: black;
+	}
+	.text a:hover {
+		text-decoration: none;
+		color: black;
+	}
+
+	.text ul {
+		padding: 0rem;
+		margin: 0rem 0rem 1.2rem 0rem;
+	}
+
+
+	.text li {
+		display: inline;
+	}
+
+	.text li:after{
+		content: '\\';
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+
+	.text li:last-child:after {
+		content: none;
+	}
+
+	.last {
+		margin-bottom: 10rem;
+	}
+
+	.last a{
+		float: right;
+		text-decoration: underline;
+	}
+
+	.last a:before {
+		content: '(';
+		text-decoration: none;
+	}
+
+	.last a:after {
+		content: ')';
+		text-decoration: none;
+	}
+
+}
+
+@media screen and (min-width:900px) and (max-width:1400px){
+	* {
+		box-sizing: border-box;
+	}
+	 
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		font-size: 62.5%;
+	}
+	 
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		font-size: 1.4rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		background-image: url(../img/wood.jpeg);
+		background-position: center;
+		background-size: cover;
+	}
+	 
+	.hidden{
+		display: none;
+	}
+
+	article {
+		width: 80%;
+		margin: auto;
+		margin-top: 10em;
+		margin-left: 10em;
+	}
+
+	h1 {
+		font-size: 3.1rem;
+		font-family: sans-serif;
+		margin: 0rem;
+	}
+
+	p {
+		font-size: 2.6rem;	
+		font-family: sans-serif;
+	}
+
+	.image {
+		float: left;
+		width: 60%;
+		margin-bottom: 1rem;
+	}
+
+	.image img {
+		width: 90%;
+		float: left;
+	}
+
+	.text {
+		width: 80%;
+		float: left;
+		font-size: 2rem;
+	}
+
+	.text a {
+		text-decoration: none;
+		color: black;
+	}
+	.text a:hover {
+		text-decoration: none;
+		color: black;
+	}
+
+	.text ul {
+		padding: 0rem;
+		margin: 0rem 0rem 1.2rem 0rem;
+	}
+
+
+	.text li {
+		display: inline;
+	}
+
+	.text li:after{
+		content: '\\';
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+
+	.text li:last-child:after {
+		content: none;
+	}
+
+	.last {
+		margin-bottom: 10rem;
+	}
+
+	.last a{
+		float: right;
+		text-decoration: underline;
+	}
+
+	.last a:before {
+		content: '(';
+		text-decoration: none;
+	}
+
+	.last a:after {
+		content: ')';
+		text-decoration: none;
+	}
+
+}
+
+@media (max-width:900px) {
+	* {
+		box-sizing: border-box;
+	}
+	 
+	html {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		font-size: 62.5%;
+	}
+	 
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		font-size: 1.4rem;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		background-image: url(../img/wood.jpeg);
+		background-position: center;
+		background-size: cover;
+	}
+	 
+	.hidden{
+		display: none;
+	}
+
+	article {
+		width: 70%;
+		margin: auto;
+		margin-top: 4rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		font-family: sans-serif;
+		margin: 0rem;
+	}
+
+	.image {
+		float: left;
+		width: 60%;
+		margin-bottom: 1rem;
+	}
+
+	.image img {
+		width: 90%;
+		float: left;
+	}
+
+	.text {
+		width: 60%;
+		float: left;
+		font-size: 2rem;
+	}
+
+	.text a {
+		text-decoration: none;
+		color: black;
+	}
+	.text a:hover {
+		text-decoration: none;
+		color: black;
+	}
+
+	.text ul {
+		padding: 0rem;
+		margin: 0rem 0rem 1.2rem 0rem;
+	}
+
+
+	.text li {
+		display: inline;
+	}
+
+	.text li:after{
+		content: '\\';
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+
+	.text li:last-child:after {
+		content: none;
+	}
+
+	.last {
+		margin-bottom: 10rem;
+	}
+
+	.last a{
+		float: right;
+		text-decoration: underline;
+	}
+
+	.last a:before {
+		content: '(';
+		text-decoration: none;
+	}
+
+	.last a:after {
+		content: ')';
+		text-decoration: none;
+	}
+
+	article {
+		display: block;
+		width: 90%;
+	}
+	.text {
+		width: 100%;
+	}
+}
+
+
