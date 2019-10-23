@@ -2,7 +2,7 @@
 Responsive website with a beautiful variant of Nim game
 Programming Languages: HTML, CSS, Javascript, Jquery
 
-![Alt text](WebAI/IMG/NimWeb.png?raw=true "Game Sample")
+![Alt text](WebAI/IMG/WebIndex.png?raw=true "Web Index")
 
 Launch the website from:
  - WebAI/HTML/ResponsiveIndex.html
@@ -16,5 +16,8 @@ Nim game rules:
    
  - In this game variation the player that takes the last stone loses.
  
- ** Real in game samples **
+ **Real in game samples**
+ 
+ ![Alt text](WebAI/IMG/StartGame.png?raw=true "Start Game")
+ ![Alt text](WebAI/IMG/NimWeb.png?raw=true "Game Sample")
 
