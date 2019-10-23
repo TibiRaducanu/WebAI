@@ -1,6 +1,6 @@
 # WebAI
 Responsive website with a beautiful variant of Nim game  
-Programming Languages: HTML, CSS, Javascript, Jquery
+Programming Languages: **HTML, CSS, Javascript, Jquery**
 
 ![Alt text](WebAI/IMG/WebIndex.png?raw=true "Web Index")
 
