@@ -18,6 +18,6 @@ Nim game rules:
  
  **Real in game samples**
  
- ![Alt text](WebAI/IMG/StartGame.png?raw=true "Start Game")
+ ![Alt text](WebAI/IMG/StartGame.png?raw=true "Start Game") 
  ![Alt text](WebAI/IMG/NimWeb.png?raw=true "Game Sample") 
 
